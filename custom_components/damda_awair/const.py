@@ -114,10 +114,10 @@ AWAIR_DEVICE = {
 }
 
 AWAIR_ITEM = {
-    "score": ["score", "점수", "", SENSOR_DOMAIN, "mdi:periodic-table", None, int],
+    "score": ["score", "Air Quality Score", "", SENSOR_DOMAIN, "mdi:periodic-table", None, int],
     "temp": [
         "temperature",
-        "온도",
+        "Temperature",
         TEMP_CELSIUS,
         SENSOR_DOMAIN,
         "mdi:thermometer",
@@ -126,7 +126,7 @@ AWAIR_ITEM = {
     ],
     "humid": [
         "humidity",
-        "습도",
+        "Humidity",
         PERCENTAGE,
         SENSOR_DOMAIN,
         "mdi:water-percent",
@@ -135,7 +135,7 @@ AWAIR_ITEM = {
     ],
     "co2": [
         "co2",
-        "이산화탄소",
+        "CO2",
         CONCENTRATION_PARTS_PER_MILLION,
         SENSOR_DOMAIN,
         "mdi:molecule-co2",
@@ -153,7 +153,7 @@ AWAIR_ITEM = {
     ],
     "pm25": [
         "pm25",
-        "초미세먼지",
+        "pm25",
         CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
         SENSOR_DOMAIN,
         "mdi:blur",
@@ -162,7 +162,7 @@ AWAIR_ITEM = {
     ],
     "lux": [
         "lux",
-        "조도",
+        "lux",
         LIGHT_LUX,
         SENSOR_DOMAIN,
         "mdi:weather-sunny",
@@ -171,7 +171,7 @@ AWAIR_ITEM = {
     ],
     "spl_a": [
         "noise",
-        "소음",
+        "noise",
         SOUND_PRESSURE_WEIGHTED_DBA,
         SENSOR_DOMAIN,
         "mdi:volume-vibrate",
@@ -180,7 +180,7 @@ AWAIR_ITEM = {
     ],
     "timestamp": [
         "updatetime",
-        "업데이트",
+        "Update Time",
         None,
         SENSOR_DOMAIN,
         "mdi:clock-outline",
@@ -189,7 +189,7 @@ AWAIR_ITEM = {
     ],
     "dew_point": [
         "dew_point",
-        "이슬점",
+        "Dew Point",
         TEMP_CELSIUS,
         SENSOR_DOMAIN,
         "mdi:snowflake",
@@ -198,7 +198,7 @@ AWAIR_ITEM = {
     ],
     "abs_humid": [
         "abs_humidity",
-        "절대습도",
+        "Absolute Humidity",
         "",
         SENSOR_DOMAIN,
         "mdi:water-percent",
@@ -207,7 +207,7 @@ AWAIR_ITEM = {
     ],
     "co2_est": [
         "co2_est",
-        "이산화탄소 추정치",
+        "CO2 Estimate",
         CONCENTRATION_PARTS_PER_MILLION,
         SENSOR_DOMAIN,
         "mdi:molecule-co2",
@@ -216,7 +216,7 @@ AWAIR_ITEM = {
     ],
     "co2_est_baseline": [
         "co2_est_baseline",
-        "이산화탄소 추정치 Baseline",
+        "CO2 Estimate Baseline",
         "",
         SENSOR_DOMAIN,
         "mdi:molecule-co2",
@@ -243,7 +243,7 @@ AWAIR_ITEM = {
     ],
     "voc_ethanol_raw": [
         "voc_ethanol_raw",
-        "VOC 에탄올 Raw",
+        "VOC Ethanol Raw",
         "",
         SENSOR_DOMAIN,
         "mdi:chemical-weapon",
@@ -252,7 +252,7 @@ AWAIR_ITEM = {
     ],
     "pm10_est": [
         "pm10_est",
-        "미세먼지",
+        "PM10 Estimate",
         CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
         SENSOR_DOMAIN,
         "mdi:blur",
