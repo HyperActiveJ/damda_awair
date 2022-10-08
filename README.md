@@ -1,3 +1,7 @@
+OBSOLETE< NOW INCLUDED IN HOME ASSISTANCE CORE
+
+
+
 Enlgish Versoin of  GuGu927/damda_awair
 Damda Awair Component
 
